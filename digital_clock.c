@@ -131,8 +131,8 @@ void	display_digital_clock(char *time)
 						case '2': horizontal_line1(); break ;
 						case '3': horizontal_line3(); break ;
 						case '4': horizontal_line1(); break ;
-						case '5': horizontal_line2(); break ;
-						case '6': horizontal_line2(); break ;
+						case '5': horizontal_line1(); break ;
+						case '6': horizontal_line1(); break ;
 						case '7': empty_line(); break ;
 						case '8': horizontal_line1(); break ;
 						case '9': horizontal_line1(); break ;
