@@ -14,7 +14,7 @@ int	main(void)
 {
 		struct tm	tm;
 		time_t		t = time(NULL);
-		int			hour, minute;
+		int		hour, minute;
 		char		time[5];
 
 		localtime_r(&t, &tm);
