@@ -37,12 +37,12 @@ void	horizontal_line1()
 
 void	horizontal_line2()
 {
-		write(1, "+------- ", 9);
+		write(1, "+--------", 9);
 }
 
 void	horizontal_line3()
 {
-		write(1, " -------+", 9);
+		write(1, "--------+", 9);
 }
 
 void	empty_line()
